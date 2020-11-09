@@ -25,7 +25,11 @@ public class WebController {
 	}
 	
 	
-	
+	@GetMapping("/heelo")
+	public String sayhelloo() {
+		return "hello world";
+		
+	}
 	
 	
 	

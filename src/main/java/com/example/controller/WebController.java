@@ -19,10 +19,7 @@ public class WebController {
 	}
 	
 	
-	@GetMapping("/hai")
-	public String sayhaii() {
-		return "heloooooo";
-	}
+	
 	
 	
 	@GetMapping("/heelo")
